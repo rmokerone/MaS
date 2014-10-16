@@ -1,12 +1,24 @@
-/**********************************************************************
-	> File Name: main.c
-	> Author: Rmoker
-	> Mail: rmokerone@gmail.com 
-	> Created Time: Tue 14 Oct 2014 05:53:45 PM CST
- *********************************************************************/
+ /**
+ * @file main.c
+ * @Synopsis 主程序文件 
+ * @author Moker, rmokerone@gmail.com
+ * @version 0.0
+ * @date 2014-10-16
+ */
 
 #include "common.h"
+#include "main.h"
 
+//速度监控
+RationObject speedStatus;
+
+/* --------------------------------------------------------------------------*/
+/**
+* @Synopsis 主程序
+*
+* @Returns  返回程序执行情况 
+*/
+/* ----------------------------------------------------------------------------*/
 int main(void)
 {
 
