@@ -8,4 +8,10 @@
 #ifndef __MAIN_H__
 #define __MAIN_H__
 
+#include "led.h"
+#include "motors.h"
+#include "oled.h"
+#include "stdlib.h"
+#include <stdbool.h>
+
 #endif 
